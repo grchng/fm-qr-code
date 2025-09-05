@@ -1,0 +1,19 @@
+// Colors
+$slate-300: #d5e1ef;
+$slate-500: #68778d;
+$slate-900: #1f314f;
+$white: #ffffff;
+
+// Typography
+$font-family: var(--font-outfit), sans-serif;
+$font-size-base: 15px;
+$font-size-bold: 22px;
+$font-weight-base: 400;
+$font-weight-bold: 700;
+$font-subtext: $font-weight-base $font-size-base $font-family;
+$font-heading-2: $font-weight-bold $font-size-bold $font-family;
+
+// Spacing
+$spacing-200: 16px;
+$spacing-300: 24px;
+$spacing-500: 40px;

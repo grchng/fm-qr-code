@@ -1,0 +1,17 @@
+/*
+(central SCSS file to import all design tokens and global styles)
+
+- allows for cleaner imports in component stylesheets
+- instead of importing each file individually, just import this file once            
+- e.g. @import "styles/main";
+- imports design tokens
+- imports global styles
+
+
+- Think of @use as importing a SCSS file into another SCSS file.
+- When you @use a file, all its variables, mixins, and functions are namespaced (so they don’t pollute the global scope).
+- You access them with the namespace prefix (alias).
+*/
+
+// design tokens
+@use "design-tokens" as tokens;

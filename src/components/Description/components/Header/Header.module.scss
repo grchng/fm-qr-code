@@ -1,0 +1,5 @@
+@use "src/styles/design-tokens" as tokens;
+
+.Header {
+  font: tokens.$font-heading-2;
+}

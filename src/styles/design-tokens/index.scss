@@ -1,0 +1,17 @@
+/*  
+(forwards all tokens in this directory)
+- index.scss file like index.tsx file for scss modules
+- aggregates and re-exports other scss files
+- allows for cleaner imports in other files
+- e.g. instead of importing each file individually:
+- @import "variables";
+- @import "breakpoints";
+- can just import this file:
+- @import "design-tokens";
+
+- Think of @forward as re-exporting variables, mixins, or functions from one file through another.
+- Useful for creating an index file that bundles multiple tokens. 
+*/
+
+@forward "breakpoints";
+@forward "variables";
