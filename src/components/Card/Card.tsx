@@ -8,6 +8,7 @@ export function Card() {
   return (
     <div className={styles.Card}>
       <QR />
+
       <Description />
     </div>
   );

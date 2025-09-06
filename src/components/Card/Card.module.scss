@@ -1,9 +1,11 @@
+@use "src/styles/design-tokens" as tokens;
+
 .Card {
   background: white;
   display: flex;
   flex-direction: column;
-  height: 499px;
+  align-items: center;
+  width: 320px;
   border-radius: 20px;
-  padding: 16px;
-  border: yellow 2px;
+  padding: tokens.$spacing-200 0;
 }

@@ -1,0 +1,15 @@
+@use "src/styles/design-tokens" as tokens;
+
+
+.Description {
+    margin: tokens.$spacing-300 0;
+    padding: 0 tokens.$spacing-200;
+}
+
+.Description > *:not(:first-child) {
+    margin-top: tokens.$spacing-200;
+}
+
+.Description > * {
+      text-align: center;
+}
